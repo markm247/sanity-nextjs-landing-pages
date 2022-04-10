@@ -29,6 +29,14 @@ export default {
       ],
     },
     {
+      name: 'centers',
+      type: 'array',
+      title: 'Centers',
+      of: [
+        { name: 'center1', type: 'string', title: 'Center' },
+      ],
+    },
+    {
       name: 'description',
       type: 'text',
       title: 'Description',
